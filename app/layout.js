@@ -6,9 +6,9 @@ export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: 'Hågen Sagli — Quantitative Finance & Energy Markets',
   description:
-    'Hågen Moe Sagli (also written Haagen Sagli / Hagen Sagli) is a Calgary-based finance professional working in corporate development and quantitative finance. McGill Master of Finance (MMF) graduate and founder of SPC Capital Inc.',
+    'Hågen Moe Sagli (also written Haagen Sagli / Hagen Sagli) is a Calgary-based finance professional focused on quantitative finance and energy markets. McGill Master of Finance (MMF) graduate, founder of SPC Capital Inc. and The Differential.',
   keywords:
-    'Hågen Sagli, Haagen Sagli, Hagen Sagli, Hågen Moe Sagli, Haagen Moe Sagli, quantitative finance, corporate development, energy markets, Calgary, McGill Master of Finance, MMF, SPC Capital, systematic trading',
+    'Hågen Sagli, Haagen Sagli, Hagen Sagli, Hågen Moe Sagli, Haagen Moe Sagli, quantitative finance, systematic trading, energy markets, Calgary, McGill Master of Finance, MMF, SPC Capital, The Differential',
   authors: [{ name: 'Hågen Moe Sagli' }],
   creator: 'Hågen Moe Sagli',
   alternates: { canonical: SITE_URL },
@@ -52,7 +52,7 @@ const personSchema = {
   url: SITE_URL,
   jobTitle: 'Finance Professional',
   description:
-    'Calgary-based finance professional specializing in corporate development and quantitative finance. McGill Master of Finance graduate and founder of SPC Capital Inc.',
+    'Calgary-based finance professional focused on quantitative finance and energy markets. McGill Master of Finance graduate, founder of SPC Capital Inc. and The Differential.',
   nationality: { '@type': 'Country', name: 'Norway' },
   address: {
     '@type': 'PostalAddress',
@@ -80,10 +80,10 @@ const personSchema = {
   },
   knowsAbout: [
     'Quantitative Finance',
-    'Corporate Development',
-    'Energy Markets',
     'Systematic Trading',
+    'Energy Markets',
     'Financial Modeling',
+    'Momentum Strategies',
   ],
 }
 
