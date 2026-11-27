@@ -8,8 +8,8 @@ export default function Home() {
             Hågen Sagli
           </h1>
           <p className="mt-4 text-muted text-lg leading-relaxed">
-            Finance professional based in Calgary, Alberta, working in corporate
-            development and quantitative finance.
+            Finance professional based in Calgary, Alberta, focused on
+            quantitative finance and energy markets.
           </p>
           <p className="mt-2 text-muted/70 text-sm">
             Hågen Moe Sagli &middot; also written Haagen Sagli or Hagen Sagli
@@ -26,17 +26,29 @@ export default function Home() {
         <div className="space-y-4 text-paper/90 leading-relaxed">
           <p>
             Hågen Moe Sagli &mdash; also written Haagen Sagli or Hagen Sagli
-            &mdash; is a Calgary-based finance professional with a background
-            spanning corporate development, energy markets, and quantitative finance.
-            His work focuses on financial modeling, systematic strategy design,
-            and the structures that underpin sound decision-making in markets.
+            &mdash; is a Calgary-based finance professional and the founder of
+            SPC Capital Inc., a systematic quantitative trading firm, and of
+            The Differential, a Canadian energy market analytics platform.
           </p>
           <p>
-            He holds a Master of Finance from McGill University&rsquo;s Desautels
-            Faculty of Management and completed his undergraduate studies at Mount
-            Royal University, where he was recognized on the President&rsquo;s
-            Honour Roll. He is the founder of SPC Capital Inc., a Calgary-based
-            firm focused on systematic, quantitative trading.
+            His work sits at the intersection of quantitative finance, systematic
+            strategy design, and energy markets. He builds the models, data
+            pipelines, and decision frameworks that turn messy market data into
+            clear, defensible signals &mdash; from momentum-based trading systems
+            to differential pricing analytics for Canadian crude.
+          </p>
+          <p>
+            He is an interdisciplinary thinker by temperament, drawn to importing
+            structure from fields outside finance &mdash; engineering, statistics,
+            and the physical sciences &mdash; and applying it to how markets are
+            understood and traded.
+          </p>
+          <p>
+            He holds a Master of Finance (MMF) from McGill University&rsquo;s
+            Desautels Faculty of Management, where his Applied Finance Project
+            examined LNG arbitrage, and completed his undergraduate studies at
+            Mount Royal University, earning recognition on the President&rsquo;s
+            Honour Roll.
           </p>
         </div>
       </section>
@@ -108,10 +120,10 @@ export default function Home() {
         </h2>
         <div className="grid gap-4 sm:grid-cols-2">
           {[
-            ['Corporate Development', 'Strategy, planning, and analysis within the energy sector.'],
             ['Quantitative Finance', 'Systematic strategy design, backtesting, and risk management.'],
             ['Energy Markets', 'Canadian crude, pipelines, and commodity pricing dynamics.'],
             ['SPC Capital Inc.', 'Founder of a Calgary-based systematic trading firm.'],
+            ['The Differential', 'Founder of a Canadian energy market analytics platform.'],
           ].map(([t, d]) => (
             <div key={t} className="border border-line rounded-lg p-5 bg-ink-soft/50">
               <div className="text-paper font-medium">{t}</div>
@@ -128,12 +140,15 @@ export default function Home() {
           Elsewhere
         </h2>
         <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+          <a href="https://spclabs.ca" className="text-accent hover:underline" rel="noopener">
+            SPC Labs
+          </a>
+          <a href="https://thedifferential.energy" className="text-accent hover:underline" rel="noopener">
+            The Differential
+          </a>
           <a href="https://www.bizapedia.com/canada/spc-capital-inc.html" className="text-accent hover:underline" rel="noopener">
             SPC Capital Inc. — Business Record
           </a>
-          {/* Add once live: LinkedIn, GitHub, SPC Labs */}
-          {/* <a href="https://www.linkedin.com/in/..." className="text-accent hover:underline" rel="noopener">LinkedIn</a> */}
-          {/* <a href="https://spclabs.ca" className="text-accent hover:underline" rel="noopener">SPC Labs</a> */}
         </div>
       </section>
 
