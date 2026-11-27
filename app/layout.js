@@ -76,7 +76,11 @@ const personSchema = {
   worksFor: {
     '@type': 'Organization',
     name: 'SPC Capital Inc.',
-    sameAs: 'https://www.bizapedia.com/canada/spc-capital-inc.html',
+    sameAs: [
+      'https://spclabs.ca',
+      'https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=17822596',
+      'https://www.bizapedia.com/canada/spc-capital-inc.html',
+    ],
   },
   knowsAbout: [
     'Quantitative Finance',

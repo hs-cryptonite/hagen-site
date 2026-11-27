@@ -146,6 +146,9 @@ export default function Home() {
           <a href="https://thedifferential.energy" className="text-accent hover:underline" rel="noopener">
             The Differential
           </a>
+          <a href="https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=17822596" className="text-accent hover:underline" rel="noopener">
+            SPC Capital Inc. — Corporations Canada
+          </a>
           <a href="https://www.bizapedia.com/canada/spc-capital-inc.html" className="text-accent hover:underline" rel="noopener">
             SPC Capital Inc. — Business Record
           </a>
